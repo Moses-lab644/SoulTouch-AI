@@ -1,0 +1,2019 @@
+{
+  "_meta": {
+    "description": "Compiled paint product price database for Soul-Touch / Godtech AI Painting Estimator Bot",
+    "currency": "NGN",
+    "last_compiled": "2026-06-18",
+    "sources": [
+      "Double Design Paints - Price List (undated, scanned)",
+      "Berger Paints - Updated Product Price List effective June 6, 2025",
+      "Dulux Trade Price List - effective 18th March, 2026 (CAP PLC)",
+      "Macnugar Paints & Putty - Products Price List effective 20th Jan, 2025",
+      "Revano Classic Paints (Apollux Interiors and Paint Limited) - Price List effective October 2025"
+    ],
+    "notes": [
+      "Berger and Dulux prices listed include 7.5% VAT in the 'price_incl_vat' field; 'price_excl_vat' is the pre-VAT standard price.",
+      "Double Design and Macnugar price lists do not separately itemize VAT; treat listed prices as final.",
+      "Revano prices are listed in their source as '■' currency symbol, interpreted as Naira (₦) based on context and magnitude.",
+      "Coverage rates (m² per litre) are NOT printed on any of these price lists. Where used in the estimator, coverage assumptions are sourced from general industry standards and should be confirmed/adjusted by GOD Nwankwo based on field experience.",
+      "Where a brand's pack uses 'Deep Colour' or 'Extra Deep Colour' tiers, these attract a higher base price reflecting the additional tinting concentrate needed."
+    ]
+  },
+  "brands": {
+    "double_design": {
+      "display_name": "Double Design Paints",
+      "is_dealership_default": true,
+      "dealer_note": "Soul-Touch / Godtech AI default recommended brand. Always show first.",
+      "lines": {
+        "construction_interior_matt_emulsion": {
+          "category": "Interior Paint - Matt & Emulsion",
+          "products": [
+            {
+              "item": "D.D. B",
+              "description": "Interior Budget Emulsion",
+              "pack_sizes": {
+                "4L": null,
+                "20L": 27000.0
+              }
+            },
+            {
+              "item": "D.D. Y",
+              "description": "Interior Standard Emulsion",
+              "pack_sizes": {
+                "4L": 9800.0,
+                "20L": 49000.0
+              }
+            },
+            {
+              "item": "D.D. D",
+              "description": "Premium Matt Finish",
+              "pack_sizes": {
+                "4L": 13400.0,
+                "20L": 67000.0
+              }
+            },
+            {
+              "item": "Double Matt",
+              "description": "Special High Opacity, Ultra Smooth Matt Finish",
+              "pack_sizes": {
+                "4L": 17800.0,
+                "20L": 88000.0
+              }
+            }
+          ]
+        },
+        "construction_interior_silk_satin": {
+          "category": "Interior Paint - Silk & Satin",
+          "products": [
+            {
+              "item": "Satin",
+              "description": "Economy Washable Mid Sheen Satin Finish",
+              "pack_sizes": {
+                "4L": 15800.0,
+                "20L": 79000.0
+              }
+            },
+            {
+              "item": "Satin Plus",
+              "description": "Standard Highly Washable Mid Sheen Satin Finish",
+              "pack_sizes": {
+                "4L": 17400.0,
+                "20L": 87000.0
+              }
+            },
+            {
+              "item": "Acry Matt",
+              "description": "Premium Washable Low Sheen Satin Finish",
+              "pack_sizes": {
+                "4L": 19400.0,
+                "20L": 97000.0
+              }
+            },
+            {
+              "item": "Acry Gloss",
+              "description": "Premium Highly Washable High Sheen Satin Finish",
+              "pack_sizes": {
+                "4L": 25400.0,
+                "20L": 127000.0
+              }
+            },
+            {
+              "item": "D.D. Silk",
+              "description": "Special Highly Washable Soft Sheen Silk Finish",
+              "pack_sizes": {
+                "4L": 29000.0,
+                "20L": 145000.0
+              }
+            },
+            {
+              "item": "Leathacryl",
+              "description": "Special Washable Low Sheen Leather Finish",
+              "pack_sizes": {
+                "4L": 32600.0,
+                "20L": 163000.0
+              }
+            }
+          ]
+        },
+        "construction_exterior": {
+          "category": "Exterior Paint Family",
+          "products": [
+            {
+              "item": "D.D. Z",
+              "description": "Economy Emulsion",
+              "pack_sizes": {
+                "4L": 7000.0,
+                "20L": 34700.0
+              }
+            },
+            {
+              "item": "D.D. X (DDX)",
+              "description": "Standard Super Emulsion",
+              "pack_sizes": {
+                "4L": 11400.0,
+                "20L": 57000.0
+              }
+            },
+            {
+              "item": "Durable-D",
+              "description": "Wanti Fungal Premium Weather Shield",
+              "pack_sizes": {
+                "4L": 17000.0,
+                "20L": 82700.0
+              }
+            },
+            {
+              "item": "Double Guard",
+              "description": "Anti Carbonation Elastic Weather Shield",
+              "pack_sizes": {
+                "4L": 27400.0,
+                "20L": 137000.0
+              }
+            }
+          ]
+        },
+        "construction_high_performance": {
+          "category": "High Performance Family",
+          "products": [
+            {
+              "item": "Double Sheen",
+              "description": "High Sheen Water Borne Enamel",
+              "pack_sizes": {
+                "4L": 38000.0,
+                "20L": 187000.0
+              }
+            },
+            {
+              "item": "Double Care",
+              "description": "High Scrub Resistance Dirt Fighter",
+              "pack_sizes": {
+                "4L": 42000.0,
+                "20L": 210000.0
+              }
+            },
+            {
+              "item": "Double Guard (HP)",
+              "description": "Anti Carbonation Elastic Weather Shield",
+              "pack_sizes": {
+                "4L": 28000.0,
+                "20L": 137000.0
+              }
+            }
+          ]
+        },
+        "construction_texture": {
+          "category": "Texture Paint Family",
+          "products": [
+            {
+              "item": "Double Tex",
+              "description": "Weather Shield Smooth & Rough Sandy Texture Paint",
+              "pack_sizes": {
+                "20L": 47000.0
+              }
+            },
+            {
+              "item": "Economy Double Tex",
+              "description": "Smooth & Rough Sandy Texture Paint",
+              "pack_sizes": {
+                "20L": 29000.0
+              }
+            },
+            {
+              "item": "Granada",
+              "description": "Granular Scratch Effect, Gravitex",
+              "pack_sizes": {
+                "20L": 27000.0
+              }
+            },
+            {
+              "item": "Granada 2",
+              "description": "Smooth Granular Scratch Effect, Gravitex",
+              "pack_sizes": {
+                "20L": 35000.0
+              }
+            }
+          ]
+        },
+        "surface_prep_screeding_putty": {
+          "category": "Surface Preparation - Screeding Putty Family",
+          "products": [
+            {
+              "item": "Doublie 2",
+              "description": "Ready to Use Interior Ultra Smooth Putty, Easy to Apply & Sandpaper",
+              "pack_sizes": {
+                "20L": 19000.0
+              }
+            },
+            {
+              "item": "Doublie 1",
+              "description": "Ready to Use Exterior Durable & Weather Resistant Putty",
+              "pack_sizes": {
+                "20L": 21000.0
+              }
+            },
+            {
+              "item": "Double Zero",
+              "description": "Ready to Use Thick Putty, 5mm Thick in One Coat, for Wide Cracks & Wall Repair",
+              "pack_sizes": {
+                "20L": 17000.0
+              }
+            }
+          ]
+        },
+        "primers": {
+          "category": "Primers Family",
+          "products": [
+            {
+              "item": "Under Coat",
+              "description": "Penetrating Pigmented Solvent Primer",
+              "pack_sizes": {
+                "4L": 25500.0,
+                "20L": 126000.0
+              }
+            },
+            {
+              "item": "Sealer",
+              "description": "Penetrating Clear Primer",
+              "pack_sizes": {
+                "4L": 11000.0,
+                "20L": 54000.0
+              }
+            },
+            {
+              "item": "Double Prime 1 (RCC10)",
+              "description": "Elastic Pigment Exterior Primer",
+              "pack_sizes": {
+                "4L": 20000.0,
+                "20L": 99000.0
+              }
+            },
+            {
+              "item": "Double Prime 2",
+              "description": "Penetrating Pigmented Interior Primer",
+              "pack_sizes": {
+                "4L": 13000.0,
+                "20L": 65000.0
+              }
+            },
+            {
+              "item": "Red/Gray Oxide",
+              "description": "Protective Alkyd Primer",
+              "pack_sizes": {
+                "QUART_1KG": 23000.0,
+                "GALLON_4L": 115000.0
+              }
+            }
+          ]
+        },
+        "industrial_floor_paints": {
+          "category": "Industrial and Floor Paints Line",
+          "products": [
+            {
+              "item": "Decocrete Floor",
+              "description": "Decorative Seamless Cement Finish",
+              "pack_sizes": {
+                "PAIL_20L": 127000.0
+              }
+            },
+            {
+              "item": "Decocrete Floor Glaze",
+              "description": "Decocrete Floor Glaze",
+              "pack_sizes": {
+                "QUART_1KG": 35000.0,
+                "GALLON_4L": 140000.0,
+                "PAIL_20L": 700000.0
+              }
+            },
+            {
+              "item": "Floor Paint",
+              "description": "Hydrophobic Water Based High Performance",
+              "pack_sizes": {
+                "GALLON_4L": 35000.0,
+                "PAIL_20L": 167000.0
+              }
+            },
+            {
+              "item": "Thermoplastic Floor Paint",
+              "description": "Interior/Exterior Low Traffic Floor Paint",
+              "pack_sizes": {
+                "GALLON_4L": 40000.0,
+                "PAIL_20L": 198000.0
+              }
+            },
+            {
+              "item": "Galva Paint",
+              "description": "Special Paint for Galvanized Metal Surface",
+              "pack_sizes": {
+                "GALLON_4L": 25000.0,
+                "PAIL_20L": 125000.0
+              }
+            },
+            {
+              "item": "Double Gloss",
+              "description": "Quality Full Gloss Alkyd Paint",
+              "pack_sizes": {
+                "GALLON_4L": 43200.0,
+                "PAIL_20L": 216000.0
+              }
+            },
+            {
+              "item": "Economy Double Gloss",
+              "description": "Economy Full Gloss Alkyd Paint",
+              "pack_sizes": {
+                "GALLON_4L": 32700.0,
+                "PAIL_20L": 165000.0
+              }
+            }
+          ]
+        },
+        "decorative_line": {
+          "category": "Decorative Line",
+          "products": [
+            {
+              "item": "Crackle Glaze",
+              "description": "Crackling Glaze",
+              "pack_sizes": {
+                "GALLON_4L": 42000.0
+              }
+            },
+            {
+              "item": "Crackle Finish",
+              "description": "Crackle Finish",
+              "pack_sizes": {
+                "GALLON_4L": 38000.0
+              }
+            },
+            {
+              "item": "Decocrete",
+              "description": "Wall Decorative Concrete Finish",
+              "pack_sizes": {
+                "GALLON_4L": 26000.0,
+                "PAIL_20L": 130000.0
+              }
+            },
+            {
+              "item": "Decocrete Gel",
+              "description": "Protective Gel",
+              "pack_sizes": {
+                "QUART_1L": 15000.0
+              }
+            },
+            {
+              "item": "Rosee",
+              "description": "Endless Dew Drops",
+              "pack_sizes": {
+                "QUART_1L": 14000.0,
+                "GALLON_4L": 56000.0
+              }
+            },
+            {
+              "item": "Surf",
+              "description": "Sparkling Waves",
+              "pack_sizes": {
+                "QUART_1L": 14000.0,
+                "GALLON_4L": 56000.0
+              }
+            },
+            {
+              "item": "Sadaf",
+              "description": "Pearl Spectrum",
+              "pack_sizes": {
+                "QUART_1L": 18000.0,
+                "GALLON_4L": 70000.0
+              }
+            },
+            {
+              "item": "Stucco-Tec",
+              "description": "Polished Marble Finish",
+              "pack_sizes": {
+                "GALLON_4L": 25000.0,
+                "PAIL_20L": 100000.0
+              }
+            },
+            {
+              "item": "Muslin",
+              "description": "Stylish Fabric Finish",
+              "pack_sizes": {
+                "QUART_1L": 18000.0,
+                "GALLON_4L": 72000.0
+              }
+            },
+            {
+              "item": "Cappadocia",
+              "description": "Travertine Finish",
+              "pack_sizes": {
+                "GALLON_4L": 12000.0,
+                "PAIL_20L": 60000.0
+              }
+            },
+            {
+              "item": "Churn",
+              "description": "Iridescent Wavy Tones",
+              "pack_sizes": {
+                "QUART_1L": 20000.0,
+                "GALLON_4L": 80000.0
+              }
+            },
+            {
+              "item": "Fringo",
+              "description": "Magical Glaze",
+              "pack_sizes": {
+                "QUART_1L": 15000.0,
+                "GALLON_4L": 60000.0
+              }
+            },
+            {
+              "item": "Metallica",
+              "description": "Metallica Paint Effect",
+              "pack_sizes": {
+                "QUART_1L": 12000.0,
+                "GALLON_4L": 48000.0
+              }
+            },
+            {
+              "item": "Marvellino",
+              "description": "Marvellino",
+              "pack_sizes": {
+                "QUART_1L": 21000.0,
+                "GALLON_4L": 84000.0
+              }
+            },
+            {
+              "item": "Metalux",
+              "description": "Metalux",
+              "pack_sizes": {
+                "QUART_1L": 16500.0,
+                "GALLON_4L": 82000.0
+              }
+            },
+            {
+              "item": "Quarzo Putty",
+              "description": "Quarzo Putty",
+              "pack_sizes": {
+                "GALLON_4L": 17000.0,
+                "PAIL_20L": 68000.0
+              }
+            },
+            {
+              "item": "Gold Paper",
+              "description": "Gold Paper, One Piece",
+              "pack_sizes": {
+                "EACH": 22000.0
+              }
+            },
+            {
+              "item": "Glitters 1KG",
+              "description": "Glitters 1KG",
+              "pack_sizes": {
+                "QUART_1KG": 33000.0
+              }
+            },
+            {
+              "item": "Sadim Glaze",
+              "description": "Sadim Glaze for Glittering Star Effect",
+              "pack_sizes": {
+                "GALLON_4L": 22000.0
+              }
+            },
+            {
+              "item": "Sefika",
+              "description": "Velvet Melodies",
+              "pack_sizes": {
+                "QUART_1L": 20000.0,
+                "GALLON_4L": 80000.0
+              }
+            },
+            {
+              "item": "Woodex",
+              "description": "Wood Effect",
+              "pack_sizes": {
+                "QUART_1L": 10000.0,
+                "GALLON_4L": 40000.0
+              }
+            },
+            {
+              "item": "D'Amour",
+              "description": "Crystal Harmony",
+              "pack_sizes": {
+                "QUART_1L": 30000.0,
+                "GALLON_4L": 120000.0
+              }
+            },
+            {
+              "item": "Vellour",
+              "description": "Vellum Like Finish",
+              "pack_sizes": {
+                "GALLON_4L": 45000.0
+              }
+            },
+            {
+              "item": "Glace",
+              "description": "Floating Ice",
+              "pack_sizes": {
+                "GALLON_4L": 72000.0
+              }
+            },
+            {
+              "item": "Tuscnia",
+              "description": "Acrylic Lime Wash Finish",
+              "pack_sizes": {
+                "GALLON_4L": 40000.0
+              }
+            },
+            {
+              "item": "Calcata",
+              "description": "Rustic Finish",
+              "pack_sizes": {
+                "GALLON_4L": 55000.0
+              }
+            },
+            {
+              "item": "Glowei",
+              "description": "Glow in Dark Paint",
+              "pack_sizes": {
+                "QUART_1L": 47000.0
+              }
+            },
+            {
+              "item": "Sadim-Luxe",
+              "description": "Matt Sadim Lux",
+              "pack_sizes": {
+                "QUART_1L": 17500.0,
+                "GALLON_4L": 70000.0
+              }
+            },
+            {
+              "item": "Double Stone",
+              "description": "Double Stone Putty for Crocodile and Stencil Work",
+              "pack_sizes": {
+                "PAIL_20L": 48000.0
+              }
+            },
+            {
+              "item": "Sadim Flow",
+              "description": "Floating Stars",
+              "pack_sizes": {
+                "GALLON_4L": 50000.0
+              }
+            },
+            {
+              "item": "Diwan",
+              "description": "Art of Bespoke Finish - Price Per SQM (quote on request)",
+              "pack_sizes": {}
+            }
+          ]
+        },
+        "solutions_line": {
+          "category": "Solutions Line (Waterproofing, Bonding, Repair)",
+          "products": [
+            {
+              "item": "Doublie Extra",
+              "description": "Two Components Wet Area Putty (Repair Damages Caused by Water Leakages)",
+              "pack_sizes": {
+                "PAIL_20L": 60000.0
+              }
+            },
+            {
+              "item": "Doublie Fondo",
+              "description": "Two Components Cementitious Membrane, Two Comp RCC04-B & RCC04-A",
+              "pack_sizes": {
+                "QUART_1KG": 5500.0,
+                "GALLON_4L": 22000.0,
+                "PAIL_20L": 110000.0
+              }
+            },
+            {
+              "item": "Double Proof Water Base",
+              "description": "Water Proofing System",
+              "pack_sizes": {
+                "GALLON_4L": 19400.0,
+                "PAIL_20L": 97000.0
+              }
+            },
+            {
+              "item": "Elasto Proof",
+              "description": "High Performance Water Roofing Elastic Membrane RCC07",
+              "pack_sizes": {
+                "QUART_1KG": 11800.0,
+                "GALLON_4L": 44000.0
+              }
+            },
+            {
+              "item": "Double Proof Silicon Solution",
+              "description": "Water Repellent Silicone Additive",
+              "pack_sizes": {
+                "GALLON_4L": 65000.0
+              }
+            },
+            {
+              "item": "Concretebond NSF",
+              "description": "Concrete Bond NSF RCC01",
+              "pack_sizes": {
+                "QUART_1KG": 4500.0,
+                "GALLON_4L": 18000.0
+              }
+            },
+            {
+              "item": "Aquaseal",
+              "description": "Aquaseal RCC02",
+              "pack_sizes": {
+                "QUART_1KG": 9000.0,
+                "GALLON_4L": 36000.0
+              }
+            },
+            {
+              "item": "Concretebond Pro",
+              "description": "Concretebond Pro RCC03",
+              "pack_sizes": {
+                "QUART_1KG": 9000.0,
+                "GALLON_4L": 36000.0
+              }
+            },
+            {
+              "item": "Multi Strong",
+              "description": "Multi Strong RCC11",
+              "pack_sizes": {
+                "QUART_1KG": 9000.0,
+                "GALLON_4L": 36000.0
+              }
+            }
+          ]
+        }
+      },
+      "deep_colour_surcharge_pct": 20,
+      "deep_colour_note": "Special Deep Colours incur 20% additional charges (per Double Design price list).",
+      "negotiated_discount_pct": null,
+      "discount_note": "Discount % to be negotiated directly with this dealer and entered here once agreed. Currently null = no discount applied."
+    },
+    "berger": {
+      "display_name": "Berger Paints",
+      "is_dealership_default": false,
+      "price_list_effective": "2025-06-06",
+      "lines": {
+        "special_architectural_finishes": {
+          "category": "Special Architectural Finishes",
+          "products": [
+            {
+              "item": "Rufhide",
+              "description": "White",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 46512.74,
+                  "incl_vat": 50001.2
+                }
+              }
+            }
+          ]
+        },
+        "luxol_premium_satin_clinstay": {
+          "category": "Luxol Premium Satin (Clinstay)",
+          "products": [
+            {
+              "item": "Luxol Premium Satin",
+              "description": "White",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 152765.46,
+                  "incl_vat": 164222.87
+                }
+              }
+            },
+            {
+              "item": "Luxol Premium Satin",
+              "description": "Light Colours",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 145420.53,
+                  "incl_vat": 156327.07
+                }
+              }
+            },
+            {
+              "item": "Luxol Premium Satin",
+              "description": "Deep Colours",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 153344.55,
+                  "incl_vat": 164845.39
+                }
+              }
+            }
+          ]
+        },
+        "luxol_premium_silk_vinyl": {
+          "category": "Luxol Premium Silk (Vinyl Silk)",
+          "products": [
+            {
+              "item": "Luxol Premium Silk",
+              "description": "White",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 145822.7,
+                  "incl_vat": 156759.4
+                }
+              }
+            },
+            {
+              "item": "Luxol Premium Silk",
+              "description": "Light Colours",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 131477.72,
+                  "incl_vat": 141338.55
+                }
+              }
+            },
+            {
+              "item": "Luxol Premium Silk",
+              "description": "Deep Colours",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 140577.69,
+                  "incl_vat": 151121.02
+                }
+              }
+            }
+          ]
+        },
+        "luxol_premium_matt": {
+          "category": "Luxol Premium Matt",
+          "products": [
+            {
+              "item": "Luxol Premium Matt",
+              "description": "White",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 116246.0,
+                  "incl_vat": 124964.45
+                }
+              }
+            },
+            {
+              "item": "Luxol Premium Matt",
+              "description": "Light Colours",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 110781.0,
+                  "incl_vat": 119089.58
+                }
+              }
+            },
+            {
+              "item": "Luxol Premium Matt",
+              "description": "Deep Colours",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 122578.0,
+                  "incl_vat": 131771.35
+                }
+              }
+            }
+          ]
+        },
+        "superstar_standard_satin": {
+          "category": "Superstar Standard Satin",
+          "products": [
+            {
+              "item": "Superstar Standard Satin",
+              "description": "White",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 106687.0,
+                  "incl_vat": 114688.53
+                }
+              }
+            },
+            {
+              "item": "Superstar Standard Satin",
+              "description": "Light Colours",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 101352.0,
+                  "incl_vat": 108953.4
+                }
+              }
+            },
+            {
+              "item": "Superstar Standard Satin",
+              "description": "Deep Colours",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 112021.0,
+                  "incl_vat": 120422.58
+                }
+              }
+            }
+          ]
+        },
+        "superstar_standard_matt": {
+          "category": "Superstar Standard Matt",
+          "products": [
+            {
+              "item": "Superstar Standard Matt",
+              "description": "White",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 54891.0,
+                  "incl_vat": 59007.83
+                }
+              }
+            },
+            {
+              "item": "Superstar Standard Matt",
+              "description": "Light Colours",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 50214.0,
+                  "incl_vat": 53980.05
+                }
+              }
+            },
+            {
+              "item": "Superstar Standard Matt",
+              "description": "Deep Colours",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 60791.0,
+                  "incl_vat": 65350.33
+                }
+              }
+            },
+            {
+              "item": "Superstar Standard Matt",
+              "description": "Extra Deep Colours",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 72490.57,
+                  "incl_vat": 77927.37
+                }
+              }
+            }
+          ]
+        },
+        "luxol_premium_gloss": {
+          "category": "Luxol Premium Gloss",
+          "products": [
+            {
+              "item": "Luxol Premium Gloss",
+              "description": "White",
+              "pack_sizes": {
+                "GALLON_4L": {
+                  "excl_vat": 42835.92,
+                  "incl_vat": 46048.61
+                }
+              }
+            },
+            {
+              "item": "Luxol Premium Gloss",
+              "description": "Light Colours",
+              "pack_sizes": {
+                "GALLON_4L": {
+                  "excl_vat": 40694.13,
+                  "incl_vat": 43746.19
+                }
+              }
+            },
+            {
+              "item": "Luxol Premium Gloss",
+              "description": "Deep Colours",
+              "pack_sizes": {
+                "GALLON_4L": {
+                  "excl_vat": 44977.72,
+                  "incl_vat": 48351.05
+                }
+              }
+            }
+          ]
+        },
+        "superstar_standard_gloss": {
+          "category": "Superstar Standard Gloss",
+          "products": [
+            {
+              "item": "Superstar Standard Gloss",
+              "description": "White",
+              "pack_sizes": {
+                "GALLON_4L": {
+                  "excl_vat": 37335.46,
+                  "incl_vat": 40135.62
+                }
+              }
+            },
+            {
+              "item": "Superstar Standard Gloss",
+              "description": "Light Colours",
+              "pack_sizes": {
+                "GALLON_4L": {
+                  "excl_vat": 36583.15,
+                  "incl_vat": 39326.89
+                }
+              }
+            },
+            {
+              "item": "Superstar Standard Gloss",
+              "description": "Deep Colours",
+              "pack_sizes": {
+                "GALLON_4L": {
+                  "excl_vat": 38954.66,
+                  "incl_vat": 41876.26
+                }
+              }
+            }
+          ]
+        },
+        "brite_emulsion": {
+          "category": "Brite Emulsion (White/Off-White only)",
+          "products": [
+            {
+              "item": "Brite Emulsion",
+              "description": "White",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 37966.03,
+                  "incl_vat": 40813.48
+                }
+              }
+            },
+            {
+              "item": "Brite Emulsion",
+              "description": "Off White",
+              "pack_sizes": {
+                "PAIL_20L": {
+                  "excl_vat": 40243.99,
+                  "incl_vat": 43262.29
+                }
+              }
+            }
+          ]
+        },
+        "primers": {
+          "category": "Primers",
+          "products": [
+            {
+              "item": "Undercoat White",
+              "description": "Undercoat",
+              "pack_sizes": {
+                "GALLON_4L": {
+                  "excl_vat": 28009.29,
+                  "incl_vat": 30109.99
+                }
+              }
+            },
+            {
+              "item": "Red Oxide Metal Primer",
+              "description": "Metal Primer",
+              "pack_sizes": {
+                "GALLON_4L": {
+                  "excl_vat": 32609.68,
+                  "incl_vat": 35055.41
+                }
+              }
+            },
+            {
+              "item": "Alkali Resisting Primer",
+              "description": "Masonry Primer",
+              "pack_sizes": {
+                "GALLON_4L": {
+                  "excl_vat": 35302.77,
+                  "incl_vat": 37950.48
+                }
+              }
+            }
+          ]
+        },
+        "thinners": {
+          "category": "Thinners (all types, 1L)",
+          "note": "All thinner variants priced identically at ₦7,348.78 (excl. VAT) / ₦7,899.94 (incl. VAT) per 1L. Variants: General Purpose, Road Marking, QD, ANAMMCQ, Etch Primer, Cellulose, Cellulose Retarder, Lignolac PU, Alkyd, Chloro-Rubber, Epoxy, Acrylic PU.",
+          "products": [
+            {
+              "item": "Thinner (all general types)",
+              "description": "1L, all variants same price",
+              "pack_sizes": {
+                "QUART_1L": {
+                  "excl_vat": 7348.78,
+                  "incl_vat": 7899.94
+                }
+              }
+            }
+          ]
+        },
+        "sundries": {
+          "category": "Sundries",
+          "products": [
+            {
+              "item": "Bright Aluminium Paint",
+              "description": "Sundry",
+              "pack_sizes": {
+                "GALLON_4L": {
+                  "excl_vat": 32309.05,
+                  "incl_vat": 34732.23
+                }
+              }
+            },
+            {
+              "item": "Sterilizing Solution",
+              "description": "Sundry",
+              "pack_sizes": {
+                "GALLON_4L": {
+                  "excl_vat": 5811.52,
+                  "incl_vat": 6247.38
+                }
+              }
+            }
+          ]
+        }
+      },
+      "vat_pct": 7.5,
+      "deep_colour_note": "Deep Colours (Luxol range): Golden Brown, Rich Brown, Tile Red, Brilliant Blue, Chocolate, Light Green, Copper, Laterite Red, Coconut Brown, Coral, Royal Blue, Dark Grey. Special Colours (Lemon, Tango, Post Office Red, Brick Red, Signal Red, National Green, Cherry, Golden Yellow, Navy Blue) attract special prices on request.",
+      "negotiated_discount_pct": null,
+      "discount_note": "Discount % to be negotiated directly with this dealer and entered here once agreed. Currently null = no discount applied."
+    },
+    "dulux": {
+      "display_name": "Dulux Trade (CAP PLC)",
+      "is_dealership_default": false,
+      "price_list_effective": "2026-03-18",
+      "lines": {
+        "vinyl_silk": {
+          "category": "Dulux Trade Vinyl Silk",
+          "products": [
+            {
+              "item": "Vinyl Silk",
+              "description": "Light Base",
+              "pack_sizes": {
+                "1L": {
+                  "excl_vat": 18997.45,
+                  "incl_vat": 20422.26
+                },
+                "2.5L": {
+                  "excl_vat": 45343.09,
+                  "incl_vat": 48743.82
+                },
+                "5L": {
+                  "excl_vat": 81620.0,
+                  "incl_vat": 87741.5
+                }
+              }
+            },
+            {
+              "item": "Vinyl Silk",
+              "description": "Pure Brilliant White",
+              "pack_sizes": {
+                "2.5L": {
+                  "excl_vat": 47790.0,
+                  "incl_vat": 51374.25
+                },
+                "5L": {
+                  "excl_vat": 80810.0,
+                  "incl_vat": 86870.75
+                }
+              }
+            },
+            {
+              "item": "Vinyl Silk",
+              "description": "Medium Base",
+              "pack_sizes": {
+                "2.5L": {
+                  "excl_vat": 41434.96,
+                  "incl_vat": 44542.58
+                },
+                "5L": {
+                  "excl_vat": 86700.0,
+                  "incl_vat": 93202.5
+                }
+              }
+            },
+            {
+              "item": "Vinyl Silk",
+              "description": "Deep Base",
+              "pack_sizes": {
+                "2.5L": {
+                  "excl_vat": 41434.96,
+                  "incl_vat": 44542.58
+                },
+                "5L": {
+                  "excl_vat": 66765.52,
+                  "incl_vat": 71772.94
+                }
+              }
+            },
+            {
+              "item": "Vinyl Silk",
+              "description": "Extra Deep Base",
+              "pack_sizes": {
+                "2.5L": {
+                  "excl_vat": 41434.96,
+                  "incl_vat": 44542.58
+                },
+                "5L": {
+                  "excl_vat": 66765.52,
+                  "incl_vat": 71772.94
+                }
+              }
+            }
+          ]
+        },
+        "wsd_smooth_masonry": {
+          "category": "Dulux Trade WSD Smooth Masonry",
+          "products": [
+            {
+              "item": "WSD Smooth Masonry",
+              "description": "Light Base",
+              "pack_sizes": {
+                "5L": {
+                  "excl_vat": 112180.0,
+                  "incl_vat": 120593.5
+                }
+              }
+            },
+            {
+              "item": "WSD Smooth Masonry",
+              "description": "Medium Base",
+              "pack_sizes": {
+                "5L": {
+                  "excl_vat": 120000.0,
+                  "incl_vat": 129000.0
+                }
+              }
+            },
+            {
+              "item": "WSD Smooth Masonry",
+              "description": "Deep Base",
+              "pack_sizes": {
+                "5L": {
+                  "excl_vat": 114000.0,
+                  "incl_vat": 122550.0
+                }
+              }
+            },
+            {
+              "item": "WSD Smooth Masonry",
+              "description": "Extra Deep Base",
+              "pack_sizes": {
+                "5L": {
+                  "excl_vat": 65871.8,
+                  "incl_vat": 70812.18
+                }
+              }
+            }
+          ]
+        },
+        "easy_care": {
+          "category": "Dulux Easy Care",
+          "products": [
+            {
+              "item": "Easy Care",
+              "description": "White",
+              "pack_sizes": {
+                "5L": {
+                  "excl_vat": 55428.48,
+                  "incl_vat": 59585.61
+                },
+                "20L": {
+                  "excl_vat": 199540.84,
+                  "incl_vat": 214506.41
+                }
+              }
+            },
+            {
+              "item": "Easy Care",
+              "description": "Light Base",
+              "pack_sizes": {
+                "1L": {
+                  "excl_vat": 16717.99,
+                  "incl_vat": 17971.84
+                },
+                "5L": {
+                  "excl_vat": 64296.27,
+                  "incl_vat": 69118.49
+                },
+                "20L": {
+                  "excl_vat": 231466.57,
+                  "incl_vat": 248826.56
+                }
+              }
+            },
+            {
+              "item": "Easy Care",
+              "description": "Medium Base",
+              "pack_sizes": {
+                "1L": {
+                  "excl_vat": 18389.67,
+                  "incl_vat": 19768.89
+                },
+                "5L": {
+                  "excl_vat": 58753.9,
+                  "incl_vat": 63160.44
+                }
+              }
+            },
+            {
+              "item": "Easy Care",
+              "description": "Deep Base",
+              "pack_sizes": {
+                "5L": {
+                  "excl_vat": 58753.9,
+                  "incl_vat": 63160.44
+                }
+              }
+            },
+            {
+              "item": "Easy Care",
+              "description": "Extra Deep Base",
+              "pack_sizes": {
+                "5L": {
+                  "excl_vat": 58753.9,
+                  "incl_vat": 63160.44
+                }
+              }
+            }
+          ]
+        }
+      },
+      "vat_pct": 7.5,
+      "negotiated_discount_pct": null,
+      "discount_note": "Discount % to be negotiated directly with this dealer and entered here once agreed. Currently null = no discount applied."
+    },
+    "macnugar": {
+      "display_name": "Macnugar Paints & Putty",
+      "is_dealership_default": false,
+      "price_list_effective": "2025-01-20",
+      "lines": {
+        "interior_luxury_satin_finish": {
+          "category": "Interior Luxury Collection - Satin Finish (High Sheen)",
+          "products": [
+            {
+              "item": "Satin Finish",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": 16476.0,
+                "20L": 77380.0
+              }
+            },
+            {
+              "item": "Satin Finish",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "4L": 18023.6,
+                "20L": 85118.0
+              }
+            },
+            {
+              "item": "Satin Finish",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "4L": 18797.4,
+                "20L": 88987.0
+              }
+            }
+          ]
+        },
+        "interior_luxury_satin_plux": {
+          "category": "Interior Luxury Collection - Satin Plux (Higher Sheen)",
+          "products": [
+            {
+              "item": "Satin Plux",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": 17950.0,
+                "20L": 84750.0
+              }
+            },
+            {
+              "item": "Satin Plux",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "4L": 19645.0,
+                "20L": 93225.0
+              }
+            },
+            {
+              "item": "Satin Plux",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "4L": 20492.5,
+                "20L": 97462.5
+              }
+            }
+          ]
+        },
+        "interior_luxury_satin_ultimate": {
+          "category": "Interior Luxury Collection - Satin Ultimate (Glossy, Higher Coverage)",
+          "products": [
+            {
+              "item": "Satin Ultimate",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": 23571.0,
+                "20L": 112855.0
+              }
+            },
+            {
+              "item": "Satin Ultimate",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "4L": 25828.1,
+                "20L": 124140.5
+              }
+            },
+            {
+              "item": "Satin Ultimate",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "4L": 26957.0,
+                "20L": 129785.0
+              }
+            }
+          ]
+        },
+        "interior_luxury_vinyl_matt": {
+          "category": "Interior Luxury Collection - Vinyl Matt (Washable Matt)",
+          "products": [
+            {
+              "item": "Vinyl Matt",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": 15700.0,
+                "20L": 73500.0
+              }
+            },
+            {
+              "item": "Vinyl Matt",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "4L": 17170.0,
+                "20L": 80850.0
+              }
+            },
+            {
+              "item": "Vinyl Matt",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "4L": 17905.0,
+                "20L": 84525.0
+              }
+            }
+          ]
+        },
+        "interior_luxury_vinyl_softsheen": {
+          "category": "Interior Luxury Collection - Vinyl Softsheen (Washable Mid Sheen)",
+          "products": [
+            {
+              "item": "Vinyl Softsheen",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": 16160.0,
+                "20L": 75800.0
+              }
+            },
+            {
+              "item": "Vinyl Softsheen",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "4L": 17676.0,
+                "20L": 83380.0
+              }
+            },
+            {
+              "item": "Vinyl Softsheen",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "4L": 18509.8,
+                "20L": 87549.0
+              }
+            }
+          ]
+        },
+        "interior_luxury_silk_finish": {
+          "category": "Interior Luxury Collection - Luxury Silk Finish (Highly Washable Medium Sheen)",
+          "products": [
+            {
+              "item": "Luxury Silk Finish",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": 24090.0,
+                "20L": 115450.0
+              }
+            },
+            {
+              "item": "Luxury Silk Finish",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "4L": 26399.0,
+                "20L": 126995.0
+              }
+            },
+            {
+              "item": "Luxury Silk Finish",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "4L": 27553.4,
+                "20L": 132767.0
+              }
+            }
+          ]
+        },
+        "exterior_antifungal_silk": {
+          "category": "Exterior Anti-Fungal Luxury Collection - Weatherproof Silk (Ultra-Smooth Silky)",
+          "products": [
+            {
+              "item": "Weatherproof Silk",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": 20600.0,
+                "20L": 98000.0
+              }
+            },
+            {
+              "item": "Weatherproof Silk",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "4L": 22560.0,
+                "20L": 107800.0
+              }
+            },
+            {
+              "item": "Weatherproof Silk",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "4L": 23540.0,
+                "20L": 112700.0
+              }
+            }
+          ]
+        },
+        "exterior_antifungal_matt": {
+          "category": "Exterior Anti-Fungal Luxury Collection - Weatherproof Matt (Ultra-Smooth Matt)",
+          "products": [
+            {
+              "item": "Weatherproof Matt",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": 16970.0,
+                "20L": 79850.0
+              }
+            },
+            {
+              "item": "Weatherproof Matt",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "4L": 18567.0,
+                "20L": 87835.0
+              }
+            },
+            {
+              "item": "Weatherproof Matt",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "4L": 19365.5,
+                "20L": 91827.5
+              }
+            }
+          ]
+        },
+        "exterior_antifungal_ultratex": {
+          "category": "Exterior Anti-Fungal Luxury Collection - Weatherproof Ultratex (Ultra-Fine Textured)",
+          "products": [
+            {
+              "item": "Weatherproof Ultratex",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "20L": 82580.0
+              }
+            },
+            {
+              "item": "Weatherproof Ultratex",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "20L": 90838.0
+              }
+            },
+            {
+              "item": "Weatherproof Ultratex",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "20L": 94967.0
+              }
+            }
+          ]
+        },
+        "exterior_weatherproof_textured": {
+          "category": "Weatherproof Textured (High-Build Textured)",
+          "products": [
+            {
+              "item": "Weatherproof Textured",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "20L": 81300.0
+              }
+            },
+            {
+              "item": "Weatherproof Textured",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "20L": 89430.0
+              }
+            },
+            {
+              "item": "Weatherproof Textured",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "20L": 93495.0
+              }
+            }
+          ]
+        },
+        "exterior_weatherproof_textmatt": {
+          "category": "Weatherproof Textmatt (Fine Textured)",
+          "products": [
+            {
+              "item": "Weatherproof Textmatt",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "20L": 82500.0
+              }
+            },
+            {
+              "item": "Weatherproof Textmatt",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "20L": 89430.0
+              }
+            },
+            {
+              "item": "Weatherproof Textmatt",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "20L": 93495.0
+              }
+            }
+          ]
+        },
+        "graphitex": {
+          "category": "Graphitex",
+          "products": [
+            {
+              "item": "Graphitex",
+              "description": "Brilliant White & Light Colours / Light Colours / Deep Colour (all same price)",
+              "pack_sizes": {
+                "20L": 35000.0
+              }
+            }
+          ]
+        },
+        "decorative_effects": {
+          "category": "Decorative Effect Collection",
+          "products": [
+            {
+              "item": "Metallic Gold",
+              "description": "Metallic Effect",
+              "pack_sizes": {
+                "1L": 12000.0,
+                "4L": 45000.0,
+                "10L": 95000.0
+              }
+            },
+            {
+              "item": "Metallic Luster",
+              "description": "Metallic Effect",
+              "pack_sizes": {
+                "1L": 12000.0,
+                "4L": 45000.0,
+                "10L": 95000.0
+              }
+            },
+            {
+              "item": "Savanna Plaster",
+              "description": "Decorative Plaster Effect",
+              "pack_sizes": {
+                "10L": 28000.0
+              }
+            },
+            {
+              "item": "Travatino",
+              "description": "Decorative Stone Effect",
+              "pack_sizes": {
+                "10L": 29000.0
+              }
+            }
+          ]
+        },
+        "interior_exterior_ceilings_walls": {
+          "category": "Interior and Exterior Collection (Ceilings & Walls)",
+          "products": [
+            {
+              "item": "Ultrafine Emulsion",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": 11157.2,
+                "20L": 50786.0
+              }
+            },
+            {
+              "item": "Ultrafine Emulsion",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "4L": 12178.8,
+                "20L": 55894.0
+              }
+            },
+            {
+              "item": "Ultrafine Emulsion",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "4L": 12700.0,
+                "20L": 58500.0
+              }
+            },
+            {
+              "item": "Premium Emulsion",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": 8510.0,
+                "20L": 37550.0
+              }
+            },
+            {
+              "item": "Premium Emulsion",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "4L": 9261.0,
+                "20L": 41305.0
+              }
+            },
+            {
+              "item": "Premium Emulsion",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "4L": 9636.5,
+                "20L": 43182.5
+              }
+            },
+            {
+              "item": "Premium Textmatt",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "20L": 47980.0
+              }
+            },
+            {
+              "item": "Premium Textmatt",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "20L": 52778.0
+              }
+            },
+            {
+              "item": "Premium Textmatt",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "20L": 55177.0
+              }
+            },
+            {
+              "item": "Premium Textured",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": null,
+                "20L": 45750.0
+              }
+            },
+            {
+              "item": "Premium Textured",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "20L": 50325.0
+              }
+            },
+            {
+              "item": "Premium Textured",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "20L": 52612.5
+              }
+            },
+            {
+              "item": "Basic Emulsion",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": 6230.0,
+                "20L": 26150.0
+              }
+            }
+          ]
+        },
+        "floor_coatings": {
+          "category": "Floor Coating Collection",
+          "products": [
+            {
+              "item": "Gloss / Matt Gloss",
+              "description": "Brilliant White & Light Colours",
+              "pack_sizes": {
+                "4L": 32000.0,
+                "20L": 145000.0
+              }
+            },
+            {
+              "item": "Gloss / Matt Gloss",
+              "description": "Deep Colour",
+              "pack_sizes": {
+                "4L": 32964.0,
+                "20L": 149820.0
+              }
+            },
+            {
+              "item": "Gloss / Matt Gloss",
+              "description": "Extra Deep Colour",
+              "pack_sizes": {
+                "4L": 32964.0,
+                "20L": 149820.0
+              }
+            }
+          ]
+        },
+        "metal_coatings": {
+          "category": "Metal Coating Collection",
+          "products": [
+            {
+              "item": "Duracrete",
+              "description": "Standard / Deep / Extra Deep all listed at same approx price",
+              "pack_sizes": {
+                "4L": 32000.0,
+                "20L": 145000.0
+              }
+            },
+            {
+              "item": "Durathine",
+              "description": "Metal Coating",
+              "pack_sizes": {
+                "4L": 18000.0
+              }
+            },
+            {
+              "item": "Dura Seal / Solvent Varnish",
+              "description": "Metal Coating",
+              "pack_sizes": {
+                "4L": 25000.0,
+                "20L": 120000.0
+              }
+            }
+          ]
+        },
+        "decorative_products": {
+          "category": "Decorative Products (Putty-based effects)",
+          "products": [
+            {
+              "item": "Decorative Effect (Black & Light Colours)",
+              "description": "Decorative finish",
+              "pack_sizes": {
+                "4L": 28000.0
+              }
+            },
+            {
+              "item": "Decorative Effect (Special Colours)",
+              "description": "Decorative finish",
+              "pack_sizes": {
+                "4L": 32000.0
+              }
+            }
+          ]
+        }
+      },
+      "negotiated_discount_pct": null,
+      "discount_note": "Discount % to be negotiated directly with this dealer and entered here once agreed. Currently null = no discount applied."
+    },
+    "revano": {
+      "display_name": "Revano Classic Paints (Apollux Interiors and Paint Limited)",
+      "is_dealership_default": false,
+      "price_list_effective": "2025-10-01",
+      "lines": {
+        "decorative_finishes": {
+          "category": "Decorative Finishes",
+          "products": [
+            {
+              "item": "Revano Stucco",
+              "description": "Decorative Plaster Finish",
+              "pack_sizes": {
+                "12KG": 42000.0,
+                "4KG": 15000.0
+              }
+            },
+            {
+              "item": "Venetian Plaster Wax",
+              "description": "Finishing Wax",
+              "pack_sizes": {
+                "1KG": 20000.0
+              }
+            },
+            {
+              "item": "Revano Calypso",
+              "description": "Decorative Finish",
+              "pack_sizes": {
+                "10KG": 86000.0,
+                "3KG": 32000.0
+              }
+            },
+            {
+              "item": "Revano Basilica",
+              "description": "Decorative Finish",
+              "pack_sizes": {
+                "5KG": 100000.0
+              }
+            },
+            {
+              "item": "Revano Travertino",
+              "description": "Travertine Effect Finish",
+              "pack_sizes": {
+                "25KG": 32000.0
+              }
+            },
+            {
+              "item": "Revano Chess Gold",
+              "description": "Metallic Decorative Finish",
+              "pack_sizes": {
+                "10KG": 96000.0,
+                "3KG": 39000.0,
+                "1KG": 15000.0
+              }
+            },
+            {
+              "item": "Revano Chess Silver",
+              "description": "Metallic Decorative Finish",
+              "pack_sizes": {
+                "10KG": 86000.0,
+                "3KG": 32000.0
+              }
+            },
+            {
+              "item": "Rustic Wax",
+              "description": "Finishing Wax",
+              "pack_sizes": {
+                "3KG": 30000.0
+              }
+            },
+            {
+              "item": "Revano Crackle Gel",
+              "description": "Crackle Effect",
+              "pack_sizes": {
+                "3KG": 35000.0
+              }
+            },
+            {
+              "item": "Veneto",
+              "description": "Decorative Finish",
+              "pack_sizes": {
+                "10KG": 100000.0,
+                "3KG": null
+              }
+            },
+            {
+              "item": "Belarus",
+              "description": "Decorative Finish",
+              "pack_sizes": {
+                "5KG": 120000.0
+              }
+            }
+          ]
+        },
+        "surface_prep_putty": {
+          "category": "Surface Preparation",
+          "products": [
+            {
+              "item": "Revano Putty",
+              "description": "General Purpose Putty",
+              "pack_sizes": {
+                "25KG": 25000.0
+              }
+            }
+          ]
+        },
+        "trade_paints": {
+          "category": "Revano Trade Paints",
+          "products": [
+            {
+              "item": "Revano Trade Vinyl Silk",
+              "description": "Trade Vinyl Silk Finish",
+              "pack_sizes": {
+                "20L": 95000.0,
+                "10L": 47500.0
+              }
+            },
+            {
+              "item": "Revano Trade Vinyl Matt",
+              "description": "Trade Vinyl Matt Finish",
+              "pack_sizes": {
+                "20L": 85000.0,
+                "10L": 43000.0
+              }
+            }
+          ]
+        },
+        "primers": {
+          "category": "Primers",
+          "products": [
+            {
+              "item": "Revano Polyvalent Primer",
+              "description": "Multi-Surface Primer",
+              "pack_sizes": {
+                "15L": 48000.0,
+                "4L": 16000.0
+              }
+            },
+            {
+              "item": "Revano Bonding Primer",
+              "description": "Bonding Primer",
+              "pack_sizes": {
+                "15L": 52000.0
+              }
+            },
+            {
+              "item": "Bigsam Restaurador",
+              "description": "Restoration Primer/Sealer",
+              "pack_sizes": {
+                "15L": 67000.0
+              }
+            }
+          ]
+        },
+        "locmeris_range": {
+          "category": "Locmeris Range",
+          "products": [
+            {
+              "item": "Locmeris Premium Matt",
+              "description": "Matt Finish",
+              "pack_sizes": {
+                "20L": 40000.0,
+                "4L": 12500.0
+              }
+            },
+            {
+              "item": "Locmeris Satin",
+              "description": "Satin Finish",
+              "pack_sizes": {
+                "20L": 63000.0,
+                "4L": 17000.0
+              }
+            },
+            {
+              "item": "Locmeris Weather Mate",
+              "description": "Weatherproof Finish",
+              "pack_sizes": {
+                "20L": 56000.0
+              }
+            },
+            {
+              "item": "Locmeris Silk",
+              "description": "Silk Finish",
+              "pack_sizes": {
+                "20L": 76000.0
+              }
+            }
+          ]
+        },
+        "equipment": {
+          "category": "Equipment",
+          "products": [
+            {
+              "item": "Stucco Polishing Machine",
+              "description": "Application Equipment",
+              "pack_sizes": {
+                "EACH": 78000.0
+              }
+            },
+            {
+              "item": "Mixing Machine",
+              "description": "Application Equipment",
+              "pack_sizes": {
+                "EACH": 70000.0
+              }
+            }
+          ]
+        }
+      },
+      "deep_colour_surcharge": {
+        "revano_vinyl_silk_matt": 10000.0,
+        "locmeris_premium_weather_mate": 5000.0
+      },
+      "notes": "Special colours take 7 working days for production. VAT chargeable on all products (not itemized in source list).",
+      "negotiated_discount_pct": null,
+      "discount_note": "Discount % to be negotiated directly with this dealer and entered here once agreed. Currently null = no discount applied."
+    }
+  }
+}
